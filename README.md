@@ -24,5 +24,5 @@ docker run -p 8080:8080 -d --name clientC client
 
 Afterwards the client is available on port 8080. 
 
-### controlling
+### Easy start
 For an easy start, the Demo.json from the other repository in the folder configs can be used (see also <a href="https://github.com/Tools-for-Production-Science/dynamic-pricing-in-production-networks/blob/main/configs/Demo.json" title="link">Demo.json</a>). Via the Button "Upload Configuration" it can be loaded. Afterwards the experiment can be started via the Button "Run Experiment". The experiment is shown in the table. There, with the button "Analytics" an interactive report can be called at the bottom of the page.
