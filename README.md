@@ -9,7 +9,7 @@ There are two possibilities: Directly via npm or via Docker
 
 ### Directly via npm
 Prerequiste is a current installation of node.js. 
-After cloning the necessary shell commands are as following:
+After cloning, the necessary shell commands are as following:
 ```
 npm i
 npm run build //compile current version
