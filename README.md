@@ -5,9 +5,11 @@ Please be aware that this client is currently fixed to work with the engine serv
 
 # How to use it
 
-There are two possibilities
-### directly
-First of all install all neccessary packages:
+There are two possibilities: Directly via npm or via Docker
+
+### Directly via npm
+Prerequiste is a current installation of node.js. 
+After cloning the necessary shell commands are as following:
 ```
 npm i
 npm run build //compile current version
@@ -16,7 +18,7 @@ npm run serve-dev //Option 2. This starts the Vue developement server which is r
 ```
 
 ### Docker
-With docker all dependancy are automatically installed.
+With docker all dependancy are automatically installed inside the container.
 ```
 docker build . -t client
 docker run -p 8080:8080 -d --name clientC client
